@@ -35,11 +35,10 @@ PRODUCT_PACKAGES += \
         Nfc \
         Tag
 
-# Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/samsung/crespo4g/overlay
-
-# Overlay for WiMAX-related settings
-DEVICE_PACKAGE_OVERLAYS := device/samsung/crespo4g/crespo4g_overlay
+# Pick up overlays for additional features
+DEVICE_PACKAGE_OVERLAYS := \
+    vendor/samsung/crespo4g/overlay \
+    device/samsung/crespo4g/crespo4g_overlay
 
 $(call inherit-product, vendor/samsung/crespo4g/device-crespo4g-blobs.mk)
 

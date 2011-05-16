@@ -26,7 +26,8 @@ PRODUCT_COPY_FILES := \
 
 # NXP blob necessary for crespo4g, and related open-source packages
 PRODUCT_COPY_FILES := \
-    device/sample/nxp/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
+    device/sample/nxp/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
+    packages/apps/Nfc/migrate_nfc.txt:/system/etc/updatecmds/migrate_nfc.txt
 
 PRODUCT_PACKAGES += \
         libnfc \

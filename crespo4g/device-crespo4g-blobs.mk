@@ -52,7 +52,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/crespo4g/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/crespo4g/proprietary/libpn544_fw.so:system/lib/libpn544_fw.so \
     vendor/samsung/crespo4g/proprietary/libakm.so:system/vendor/lib/libakm.so \
-    vendor/samsung/crespo4g/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin \
-    vendor/samsung/crespo4g/proprietary/contributors.css:system/etc/contributors.css \
-    vendor/samsung/crespo4g/proprietary/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt 
+    vendor/samsung/crespo4g/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin 
 

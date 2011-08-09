@@ -12,4 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
--include vendor/samsung/crespo4g/BoardConfigCrespo4g.mk
+USE_CAMERA_STUB := false
+
+BOARD_USES_GENERIC_AUDIO := false
+
+BOARD_USES_LIBSECRIL_STUB := false
+
+BOARD_GPS_LIBRARIES := libgps
+
+BOARD_NO_PAGE_FLIPPING := false
+BOARD_NO_32BPP := false

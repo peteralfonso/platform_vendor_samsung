@@ -42,6 +42,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/crespo/proprietary/libusc.so:system/vendor/lib/libusc.so \
     vendor/samsung/crespo/proprietary/libpn544_fw.so:system/lib/libpn544_fw.so \
     vendor/samsung/crespo/proprietary/libakm.so:system/vendor/lib/libakm.so \
-    vendor/samsung/crespo/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin \
-    vendor/samsung/crespo/proprietary/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
-    vendor/samsung/crespo/proprietary/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml
+    vendor/samsung/crespo/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin

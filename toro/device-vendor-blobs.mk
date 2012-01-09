@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/fRom:system/bin/fRom \
     vendor/samsung/toro/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/toro/proprietary/libsyncml_core.so:system/lib/libsyncml_core.so \
-    vendor/samsung/toro/proprietary/libsyncml_port.so:system/lib/libsyncml_port.so \
     vendor/samsung/toro/proprietary/lib_gsd4t.so:system/lib/lib_gsd4t.so \
     vendor/samsung/toro/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/toro/proprietary/sirfgps.conf:system/vendor/etc/sirfgps.conf \
@@ -37,8 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
     vendor/samsung/toro/proprietary/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/samsung/toro/proprietary/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/samsung/toro/proprietary/libims.so:system/vendor/lib/libims.so \
-    vendor/samsung/toro/proprietary/libims_jni.so:system/vendor/lib/libims_jni.so \
     vendor/samsung/toro/proprietary/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so \
     vendor/samsung/toro/proprietary/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/samsung/toro/proprietary/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
@@ -53,11 +49,7 @@ PRODUCT_COPY_FILES += \
 
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
-    BIP \
-    IMSFramework \
     RTN \
-    SDM \
-    SyncMLSvc \
     VZWAPNLib \
     VZWAPNService
 
